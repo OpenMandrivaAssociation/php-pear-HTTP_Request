@@ -18,7 +18,6 @@ Requires:	php-pear-Net_URL >= 1.0.12
 Requires:	php-pear-Net_Socket >= 1.0
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Supports GET/POST/HEAD/TRACE/PUT/DELETE, Basic authentication, Proxy,
