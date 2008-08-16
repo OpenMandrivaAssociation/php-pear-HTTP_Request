@@ -5,11 +5,11 @@
 
 Summary:	%{_pearname} - provides an easy way to perform HTTP requests
 Name:		php-pear-%{_pearname}
-Version:	1.4.1
-Release:	%mkrel 4
+Version:	1.4.3
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/HTTP_Request/
 Requires(post): php-pear
 Requires(preun): php-pear
@@ -18,7 +18,7 @@ Requires:	php-pear-Net_URL >= 1.0.12
 Requires:	php-pear-Net_Socket >= 1.0
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Supports GET/POST/HEAD/TRACE/PUT/DELETE, Basic authentication, Proxy,
