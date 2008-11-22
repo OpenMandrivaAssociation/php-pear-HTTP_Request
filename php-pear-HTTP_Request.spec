@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - provides an easy way to perform HTTP requests
 Name:		php-pear-%{_pearname}
-Version:	1.4.3
+Version:	1.4.4
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
