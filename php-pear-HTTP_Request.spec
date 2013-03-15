@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.4.4
-Release:	%mkrel 7
+Release:	8
 Summary:	Provides an easy way to perform HTTP requests
 License:	PHP License
 Group:		Development/PHP
@@ -17,7 +17,6 @@ Requires:	php-pear-Net_URL >= 1.0.12
 Requires:	php-pear-Net_Socket >= 1.0
 BuildArch:	noarch
 BuildRequires:	php-pear
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Supports GET/POST/HEAD/TRACE/PUT/DELETE, Basic authentication, Proxy,
@@ -28,7 +27,6 @@ Proxy Authentication etc.
 mv package.xml %{upstream_name}-%{version}/%{upstream_name}.xml
 
 %install
-rm -rf %{buildroot}
 
 cd %{upstream_name}-%{version}
 pear install --nodeps --packagingroot %{buildroot} %{upstream_name}.xml
@@ -41,7 +39,6 @@ install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 %clean
-rm -rf %{buildroot}
 
 
 
