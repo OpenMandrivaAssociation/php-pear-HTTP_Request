@@ -5,7 +5,7 @@
 Summary:	Provides an easy way to perform HTTP requests
 Name:		php-pear-%{modname}
 Version:	1.4.4
-Release:	8
+Release:	9
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/HTTP_Request/
