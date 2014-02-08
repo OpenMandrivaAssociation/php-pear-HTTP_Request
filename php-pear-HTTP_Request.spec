@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.4.4
-Release:	8
+Release:	9
 Summary:	Provides an easy way to perform HTTP requests
 License:	PHP License
 Group:		Development/PHP
