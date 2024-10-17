@@ -8,7 +8,7 @@ Version:	1.4.4
 Release:	17
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/HTTP_Request/
+Url:		https://pear.php.net/package/HTTP_Request/
 Source0:	http://download.pear.php.net/package/%{modname}-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
